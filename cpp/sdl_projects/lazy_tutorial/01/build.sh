@@ -1,0 +1,1 @@
+ g++ -o show show_image.cpp `sdl2-config --cflags --libs`

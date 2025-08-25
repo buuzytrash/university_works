@@ -1,0 +1,12 @@
+digraph "CFG for 'main' function" {
+	label="CFG for 'main' function";
+
+	Node0x5f43ab113940 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#d6524470" fontname="Courier",label="{2:\l|  %3 = alloca i32, align 4\l  %4 = alloca i32, align 4\l  %5 = alloca ptr, align 8\l  store i32 0, ptr %3, align 4\l  store i32 %0, ptr %4, align 4\l  store ptr %1, ptr %5, align 8\l  %6 = call noundef nonnull align 8 dereferenceable(8) ptr\l... @_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(ptr noundef nonnull\l... align 8 dereferenceable(8) @_ZSt4cout, ptr noundef @.str)\l  br label %7\l}"];
+	Node0x5f43ab113940 -> Node0x5f43ab114680[tooltip="2 -> 7\nProbability 100.00%" ];
+	Node0x5f43ab114680 [shape=record,color="#b70d28ff", style=filled, fillcolor="#b70d2870" fontname="Courier",label="{7:\l|  %8 = call noundef nonnull align 8 dereferenceable(8) ptr\l... @_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(ptr noundef nonnull\l... align 8 dereferenceable(8) @_ZSt4cout, ptr noundef @.str.1)\l  br label %9\l}"];
+	Node0x5f43ab114680 -> Node0x5f43ab114850[tooltip="7 -> 9\nProbability 100.00%" ];
+	Node0x5f43ab114850 [shape=record,color="#b70d28ff", style=filled, fillcolor="#b70d2870" fontname="Courier",label="{9:\l|  %10 = load i32, ptr %4, align 4\l  %11 = icmp sgt i32 %10, 2\l  br i1 %11, label %7, label %12, !llvm.loop !6\l|{<s0>T|<s1>F}}"];
+	Node0x5f43ab114850:s0 -> Node0x5f43ab114680[tooltip="9 -> 7\nProbability 96.88%" ];
+	Node0x5f43ab114850:s1 -> Node0x5f43ab1149c0[tooltip="9 -> 12\nProbability 3.12%" ];
+	Node0x5f43ab1149c0 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#d6524470" fontname="Courier",label="{12:\l|  %13 = call noundef nonnull align 8 dereferenceable(8) ptr\l... @_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(ptr noundef nonnull\l... align 8 dereferenceable(8) @_ZSt4cout, ptr noundef @.str.2)\l  ret i32 0\l}"];
+}

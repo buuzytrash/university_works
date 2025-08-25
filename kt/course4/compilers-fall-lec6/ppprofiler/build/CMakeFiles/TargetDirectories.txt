@@ -1,0 +1,13 @@
+/home/buuzytrash/kt/course4/compilers-fall-lec6/ppprofiler/build/CMakeFiles/intrinsics_gen.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec6/ppprofiler/build/CMakeFiles/omp_gen.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec6/ppprofiler/build/CMakeFiles/acc_gen.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec6/ppprofiler/build/CMakeFiles/RISCVTargetParserTableGen.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec6/ppprofiler/build/CMakeFiles/PPProfiler.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec6/ppprofiler/build/CMakeFiles/install-PPProfiler.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec6/ppprofiler/build/CMakeFiles/install-PPProfiler-stripped.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec6/ppprofiler/build/CMakeFiles/edit_cache.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec6/ppprofiler/build/CMakeFiles/rebuild_cache.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec6/ppprofiler/build/CMakeFiles/list_install_components.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec6/ppprofiler/build/CMakeFiles/install.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec6/ppprofiler/build/CMakeFiles/install/local.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec6/ppprofiler/build/CMakeFiles/install/strip.dir

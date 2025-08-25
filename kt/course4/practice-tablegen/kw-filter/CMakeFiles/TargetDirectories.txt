@@ -1,0 +1,6 @@
+/home/buuzytrash/kt/course4/practice-tablegen/kw-filter/CMakeFiles/intrinsics_gen.dir
+/home/buuzytrash/kt/course4/practice-tablegen/kw-filter/CMakeFiles/omp_gen.dir
+/home/buuzytrash/kt/course4/practice-tablegen/kw-filter/CMakeFiles/acc_gen.dir
+/home/buuzytrash/kt/course4/practice-tablegen/kw-filter/CMakeFiles/tinylang-tblgen.dir
+/home/buuzytrash/kt/course4/practice-tablegen/kw-filter/CMakeFiles/edit_cache.dir
+/home/buuzytrash/kt/course4/practice-tablegen/kw-filter/CMakeFiles/rebuild_cache.dir

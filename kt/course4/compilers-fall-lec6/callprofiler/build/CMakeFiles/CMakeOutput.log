@@ -1,0 +1,893 @@
+The system is: Linux - 6.8.0-49-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/lib/llvm-18/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_36189/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_36189.dir/build.make CMakeFiles/cmTC_36189.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_36189.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_36189.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc87uzCp.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_36189.dir/'
+ as -v --64 -o CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o /tmp/cc87uzCp.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_36189
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36189.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o -o cmTC_36189 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_36189' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_36189.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cciGZsbE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_36189 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_36189' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_36189.'
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_36189/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_36189.dir/build.make CMakeFiles/cmTC_36189.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_36189.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_36189.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc87uzCp.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_36189.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o /tmp/cc87uzCp.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_36189]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36189.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o -o cmTC_36189 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_36189' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_36189.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cciGZsbE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_36189 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cciGZsbE.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_36189] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_36189.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b0411/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b0411.dir/build.make CMakeFiles/cmTC_b0411.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o
+/usr/lib/llvm-18/bin/clang++   -v -MD -MT CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Ubuntu clang version 18.1.8 (++20240731024944+3b5b5c1ec4a3-1~exp1~20240731145000.144)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/lib/llvm-18/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm-18/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp -v -fcoverage-compilation-dir=/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-18/lib/clang/18 -dependency-file CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-18/lib/clang/18/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -dwarf-debug-flags "/usr/lib/llvm-18/bin/clang --driver-mode=g++ -v -MD -MT CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp" -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 18.1.8 based upon LLVM 18.1.8 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/lib/llvm-18/lib/clang/18/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+Linking CXX executable cmTC_b0411
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0411.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -v CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b0411 
+Ubuntu clang version 18.1.8 (++20240731024944+3b5b5c1ec4a3-1~exp1~20240731145000.144)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/lib/llvm-18/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b0411 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward]
+    add: [/usr/lib/llvm-18/lib/clang/18/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/llvm-18/lib/clang/18/include] ==> [/usr/lib/llvm-18/lib/clang/18/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/llvm-18/lib/clang/18/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b0411/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b0411.dir/build.make CMakeFiles/cmTC_b0411.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/lib/llvm-18/bin/clang++   -v -MD -MT CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Ubuntu clang version 18.1.8 (++20240731024944+3b5b5c1ec4a3-1~exp1~20240731145000.144)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/lib/llvm-18/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/usr/lib/llvm-18/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp -v -fcoverage-compilation-dir=/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm-18/lib/clang/18 -dependency-file CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-18/lib/clang/18/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -dwarf-debug-flags "/usr/lib/llvm-18/bin/clang --driver-mode=g++ -v -MD -MT CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp" -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 18.1.8 based upon LLVM 18.1.8 default target x86_64-pc-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward]
+  ignore line: [ /usr/lib/llvm-18/lib/clang/18/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_b0411]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0411.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib/llvm-18/bin/clang++  -v CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b0411 ]
+  ignore line: [Ubuntu clang version 18.1.8 (++20240731024944+3b5b5c1ec4a3-1~exp1~20240731145000.144)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/lib/llvm-18/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b0411 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b0411] ==> ignore
+    arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
+    arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_b0411.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/lib/x86_64-linux-gnu/Scrt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test HAVE_FFI_CALL succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e9982/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e9982.dir/build.make CMakeFiles/cmTC_e9982.dir/build
+gmake[1]: вход в каталог «/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_e9982.dir/src.c.o
+/usr/bin/cc -DHAVE_FFI_CALL   -o CMakeFiles/cmTC_e9982.dir/src.c.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e9982
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9982.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e9982.dir/src.c.o -o cmTC_e9982  /usr/lib/x86_64-linux-gnu/libffi.so 
+gmake[1]: выход из каталога «/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+    #ifdef __cplusplus
+    extern "C" {
+    #endif
+    struct ffi_cif;
+    typedef struct ffi_cif ffi_cif;
+    void ffi_call(ffi_cif *cif, void (*fn)(void), void *rvalue, void **avalue);
+    #ifdef __cplusplus
+    }
+    #endif
+    int main(void) { ffi_call(0, 0, 0, 0); }
+    
+Performing C SOURCE FILE Test Terminfo_LINKABLE succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_342f4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_342f4.dir/build.make CMakeFiles/cmTC_342f4.dir/build
+gmake[1]: вход в каталог «/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_342f4.dir/src.c.o
+/usr/bin/cc -DTerminfo_LINKABLE   -o CMakeFiles/cmTC_342f4.dir/src.c.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_342f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_342f4.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_342f4.dir/src.c.o -o cmTC_342f4  /usr/lib/x86_64-linux-gnu/libtinfo.so 
+gmake[1]: выход из каталога «/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+    #ifdef __cplusplus
+    extern "C" {
+    #endif
+    int setupterm(char *term, int filedes, int *errret);
+    #ifdef __cplusplus
+    }
+    #endif
+    int main(void) { return setupterm(0, 0, 0); }
+    
+Performing C++ SOURCE FILE Test LLVM_LIBSTDCXX_MIN succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1505d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1505d.dir/build.make CMakeFiles/cmTC_1505d.dir/build
+gmake[1]: вход в каталог «/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_1505d.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DLLVM_LIBSTDCXX_MIN  -std=c++0x -MD -MT CMakeFiles/cmTC_1505d.dir/src.cxx.o -MF CMakeFiles/cmTC_1505d.dir/src.cxx.o.d -o CMakeFiles/cmTC_1505d.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1505d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1505d.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++   -std=c++0x CMakeFiles/cmTC_1505d.dir/src.cxx.o -o cmTC_1505d 
+gmake[1]: выход из каталога «/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+#include <iosfwd>
+#if defined(__GLIBCXX__)
+#if !defined(_GLIBCXX_RELEASE) || _GLIBCXX_RELEASE < 7
+#error Unsupported libstdc++ version
+#endif
+#endif
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test LLVM_LIBSTDCXX_SOFT_ERROR succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_04c3c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_04c3c.dir/build.make CMakeFiles/cmTC_04c3c.dir/build
+gmake[1]: вход в каталог «/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_04c3c.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DLLVM_LIBSTDCXX_SOFT_ERROR  -std=c++0x -MD -MT CMakeFiles/cmTC_04c3c.dir/src.cxx.o -MF CMakeFiles/cmTC_04c3c.dir/src.cxx.o.d -o CMakeFiles/cmTC_04c3c.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_04c3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04c3c.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++   -std=c++0x CMakeFiles/cmTC_04c3c.dir/src.cxx.o -o cmTC_04c3c 
+gmake[1]: выход из каталога «/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+
+#include <iosfwd>
+#if defined(__GLIBCXX__)
+#if !defined(_GLIBCXX_RELEASE) || _GLIBCXX_RELEASE < 7
+#error Unsupported libstdc++ version
+#endif
+#endif
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d099c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d099c.dir/build.make CMakeFiles/cmTC_d099c.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d099c.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FPIC  -Werror -fPIC -o CMakeFiles/cmTC_d099c.dir/src.c.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d099c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d099c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d099c.dir/src.c.o -o cmTC_d099c 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_de16e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_de16e.dir/build.make CMakeFiles/cmTC_de16e.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_de16e.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DCXX_SUPPORTS_FPIC  -Werror -fPIC -MD -MT CMakeFiles/cmTC_de16e.dir/src.cxx.o -MF CMakeFiles/cmTC_de16e.dir/src.cxx.o.d -o CMakeFiles/cmTC_de16e.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_de16e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de16e.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++ CMakeFiles/cmTC_de16e.dir/src.cxx.o -o cmTC_de16e 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FNO_SEMANTIC_INTERPOSITION succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_04dda/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_04dda.dir/build.make CMakeFiles/cmTC_04dda.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04dda.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FNO_SEMANTIC_INTERPOSITION  -fPIC    -Werror -fno-semantic-interposition -o CMakeFiles/cmTC_04dda.dir/src.c.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_04dda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04dda.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC  CMakeFiles/cmTC_04dda.dir/src.c.o -o cmTC_04dda 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FNO_SEMANTIC_INTERPOSITION succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_611d5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_611d5.dir/build.make CMakeFiles/cmTC_611d5.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_611d5.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DCXX_SUPPORTS_FNO_SEMANTIC_INTERPOSITION  -fPIC    -Werror -fno-semantic-interposition -MD -MT CMakeFiles/cmTC_611d5.dir/src.cxx.o -MF CMakeFiles/cmTC_611d5.dir/src.cxx.o.d -o CMakeFiles/cmTC_611d5.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_611d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_611d5.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -fPIC  CMakeFiles/cmTC_611d5.dir/src.cxx.o -o cmTC_611d5 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b0d78/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b0d78.dir/build.make CMakeFiles/cmTC_b0d78.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b0d78.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG  -fPIC -fno-semantic-interposition    -fvisibility-inlines-hidden -MD -MT CMakeFiles/cmTC_b0d78.dir/src.cxx.o -MF CMakeFiles/cmTC_b0d78.dir/src.cxx.o.d -o CMakeFiles/cmTC_b0d78.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b0d78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0d78.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -fPIC -fno-semantic-interposition  CMakeFiles/cmTC_b0d78.dir/src.cxx.o -o cmTC_b0d78 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a6185/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a6185.dir/build.make CMakeFiles/cmTC_a6185.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6185.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_WERROR_DATE_TIME  -fPIC -fno-semantic-interposition    -Werror -Werror=date-time -o CMakeFiles/cmTC_a6185.dir/src.c.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a6185
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6185.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition  CMakeFiles/cmTC_a6185.dir/src.c.o -o cmTC_a6185 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eccb5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eccb5.dir/build.make CMakeFiles/cmTC_eccb5.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eccb5.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DCXX_SUPPORTS_WERROR_DATE_TIME  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden    -Werror -Werror=date-time -MD -MT CMakeFiles/cmTC_eccb5.dir/src.cxx.o -MF CMakeFiles/cmTC_eccb5.dir/src.cxx.o.d -o CMakeFiles/cmTC_eccb5.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_eccb5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eccb5.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden  CMakeFiles/cmTC_eccb5.dir/src.cxx.o -o cmTC_eccb5 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1e0df/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1e0df.dir/build.make CMakeFiles/cmTC_1e0df.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1e0df.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time    -Werror -Werror=unguarded-availability-new -MD -MT CMakeFiles/cmTC_1e0df.dir/src.cxx.o -MF CMakeFiles/cmTC_1e0df.dir/src.cxx.o.d -o CMakeFiles/cmTC_1e0df.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1e0df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e0df.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time  CMakeFiles/cmTC_1e0df.dir/src.cxx.o -o cmTC_1e0df 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_CMAKE_CXX_FLAGS succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e3fde/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e3fde.dir/build.make CMakeFiles/cmTC_e3fde.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3fde.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_CMAKE_CXX_FLAGS  -fPIC -fno-semantic-interposition -Werror=date-time    -Werror -fno-lifetime-dse -o CMakeFiles/cmTC_e3fde.dir/src.c.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e3fde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3fde.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time  CMakeFiles/cmTC_e3fde.dir/src.c.o -o cmTC_e3fde 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ad3ff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad3ff.dir/build.make CMakeFiles/cmTC_ad3ff.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ad3ff.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual    -Wmissing-field-initializers -MD -MT CMakeFiles/cmTC_ad3ff.dir/src.cxx.o -MF CMakeFiles/cmTC_ad3ff.dir/src.cxx.o.d -o CMakeFiles/cmTC_ad3ff.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ad3ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad3ff.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual  CMakeFiles/cmTC_ad3ff.dir/src.cxx.o -o cmTC_ad3ff 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bafe6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bafe6.dir/build.make CMakeFiles/cmTC_bafe6.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bafe6.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers    -Werror -Wimplicit-fallthrough -o CMakeFiles/cmTC_bafe6.dir/src.c.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bafe6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bafe6.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers  CMakeFiles/cmTC_bafe6.dir/src.c.o -o cmTC_bafe6 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_624d7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_624d7.dir/build.make CMakeFiles/cmTC_624d7.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_624d7.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DCXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers    -Werror -Wimplicit-fallthrough -MD -MT CMakeFiles/cmTC_624d7.dir/src.cxx.o -MF CMakeFiles/cmTC_624d7.dir/src.cxx.o.d -o CMakeFiles/cmTC_624d7.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_624d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_624d7.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers  CMakeFiles/cmTC_624d7.dir/src.cxx.o -o cmTC_624d7 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d3b9a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d3b9a.dir/build.make CMakeFiles/cmTC_d3b9a.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d3b9a.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough    -Werror -Wcovered-switch-default -MD -MT CMakeFiles/cmTC_d3b9a.dir/src.cxx.o -MF CMakeFiles/cmTC_d3b9a.dir/src.cxx.o.d -o CMakeFiles/cmTC_d3b9a.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d3b9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3b9a.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough  CMakeFiles/cmTC_d3b9a.dir/src.cxx.o -o cmTC_d3b9a 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9c4b4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9c4b4.dir/build.make CMakeFiles/cmTC_9c4b4.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9c4b4.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DCXX_SUPPORTS_NOEXCEPT_TYPE_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default    -Wnoexcept-type -MD -MT CMakeFiles/cmTC_9c4b4.dir/src.cxx.o -MF CMakeFiles/cmTC_9c4b4.dir/src.cxx.o.d -o CMakeFiles/cmTC_9c4b4.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9c4b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c4b4.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default  CMakeFiles/cmTC_9c4b4.dir/src.cxx.o -o cmTC_9c4b4 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f532d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f532d.dir/build.make CMakeFiles/cmTC_f532d.dir/build
+gmake[1]: вход в каталог «/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_f532d.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DCXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type  -Werror=non-virtual-dtor -MD -MT CMakeFiles/cmTC_f532d.dir/src.cxx.o -MF CMakeFiles/cmTC_f532d.dir/src.cxx.o.d -o CMakeFiles/cmTC_f532d.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f532d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f532d.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type  -Werror=non-virtual-dtor CMakeFiles/cmTC_f532d.dir/src.cxx.o -o cmTC_f532d 
+gmake[1]: выход из каталога «/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+class f {};
+                             class base {friend f; public: virtual void anchor();protected: ~base();};
+                             int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_SUGGEST_OVERRIDE_FLAG succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85810/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85810.dir/build.make CMakeFiles/cmTC_85810.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_85810.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DCXX_SUPPORTS_SUGGEST_OVERRIDE_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor    -Wsuggest-override -MD -MT CMakeFiles/cmTC_85810.dir/src.cxx.o -MF CMakeFiles/cmTC_85810.dir/src.cxx.o.d -o CMakeFiles/cmTC_85810.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_85810
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85810.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor  CMakeFiles/cmTC_85810.dir/src.cxx.o -o cmTC_85810 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WSUGGEST_OVERRIDE_ALLOWS_ONLY_FINAL succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e4841/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e4841.dir/build.make CMakeFiles/cmTC_e4841.dir/build
+gmake[1]: вход в каталог «/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_e4841.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DCXX_WSUGGEST_OVERRIDE_ALLOWS_ONLY_FINAL  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor  -Werror=suggest-override -MD -MT CMakeFiles/cmTC_e4841.dir/src.cxx.o -MF CMakeFiles/cmTC_e4841.dir/src.cxx.o.d -o CMakeFiles/cmTC_e4841.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx:1:7: warning: 'base' has virtual functions but non-virtual destructor [-Wnon-virtual-dtor]
+    1 | class base {public: virtual void anchor();};
+      |       ^
+/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx:2:38: warning: 'derived' has virtual functions but non-virtual destructor [-Wnon-virtual-dtor]
+    2 |                                class derived : base {public: void anchor() final;};
+      |                                      ^
+2 warnings generated.
+Linking CXX executable cmTC_e4841
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4841.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor  -Werror=suggest-override CMakeFiles/cmTC_e4841.dir/src.cxx.o -o cmTC_e4841 
+gmake[1]: выход из каталога «/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp»
+
+
+Source file was:
+class base {public: virtual void anchor();};
+                               class derived : base {public: void anchor() final;};
+                               int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_STRING_CONVERSION_FLAG succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_507d2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_507d2.dir/build.make CMakeFiles/cmTC_507d2.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_507d2.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DCXX_SUPPORTS_STRING_CONVERSION_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment    -Werror -Wstring-conversion -MD -MT CMakeFiles/cmTC_507d2.dir/src.cxx.o -MF CMakeFiles/cmTC_507d2.dir/src.cxx.o.d -o CMakeFiles/cmTC_507d2.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_507d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_507d2.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment  CMakeFiles/cmTC_507d2.dir/src.cxx.o -o cmTC_507d2 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_MISLEADING_INDENTATION_FLAG succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9e922/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9e922.dir/build.make CMakeFiles/cmTC_9e922.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e922.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_MISLEADING_INDENTATION_FLAG  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wno-comment    -Werror -Wmisleading-indentation -o CMakeFiles/cmTC_9e922.dir/src.c.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9e922
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e922.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wno-comment  CMakeFiles/cmTC_9e922.dir/src.c.o -o cmTC_9e922 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISLEADING_INDENTATION_FLAG succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_47929/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_47929.dir/build.make CMakeFiles/cmTC_47929.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47929.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DCXX_SUPPORTS_MISLEADING_INDENTATION_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wstring-conversion    -Werror -Wmisleading-indentation -MD -MT CMakeFiles/cmTC_47929.dir/src.cxx.o -MF CMakeFiles/cmTC_47929.dir/src.cxx.o.d -o CMakeFiles/cmTC_47929.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_47929
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47929.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wstring-conversion  CMakeFiles/cmTC_47929.dir/src.cxx.o -o cmTC_47929 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CTAD_MAYBE_UNSPPORTED_FLAG succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9c4bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9c4bc.dir/build.make CMakeFiles/cmTC_9c4bc.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9c4bc.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DCXX_SUPPORTS_CTAD_MAYBE_UNSPPORTED_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wstring-conversion -Wmisleading-indentation    -Werror -Wctad-maybe-unsupported -MD -MT CMakeFiles/cmTC_9c4bc.dir/src.cxx.o -MF CMakeFiles/cmTC_9c4bc.dir/src.cxx.o.d -o CMakeFiles/cmTC_9c4bc.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9c4bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c4bc.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wstring-conversion -Wmisleading-indentation  CMakeFiles/cmTC_9c4bc.dir/src.cxx.o -o cmTC_9c4bc 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FNO_FUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2f9fe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2f9fe.dir/build.make CMakeFiles/cmTC_2f9fe.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f9fe.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FNO_FUNCTION_SECTIONS  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wno-comment -Wmisleading-indentation    -Werror -fno-function-sections -o CMakeFiles/cmTC_2f9fe.dir/src.c.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2f9fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f9fe.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wno-comment -Wmisleading-indentation  CMakeFiles/cmTC_2f9fe.dir/src.c.o -o cmTC_2f9fe 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_666e7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_666e7.dir/build.make CMakeFiles/cmTC_666e7.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_666e7.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FFUNCTION_SECTIONS  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wno-comment -Wmisleading-indentation    -Werror -ffunction-sections -o CMakeFiles/cmTC_666e7.dir/src.c.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_666e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_666e7.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wno-comment -Wmisleading-indentation  CMakeFiles/cmTC_666e7.dir/src.c.o -o cmTC_666e7 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_32bf7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_32bf7.dir/build.make CMakeFiles/cmTC_32bf7.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_32bf7.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DCXX_SUPPORTS_FFUNCTION_SECTIONS  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wstring-conversion -Wmisleading-indentation -Wctad-maybe-unsupported    -Werror -ffunction-sections -MD -MT CMakeFiles/cmTC_32bf7.dir/src.cxx.o -MF CMakeFiles/cmTC_32bf7.dir/src.cxx.o.d -o CMakeFiles/cmTC_32bf7.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_32bf7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32bf7.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wstring-conversion -Wmisleading-indentation -Wctad-maybe-unsupported  CMakeFiles/cmTC_32bf7.dir/src.cxx.o -o cmTC_32bf7 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f2655/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f2655.dir/build.make CMakeFiles/cmTC_f2655.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2655.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FDATA_SECTIONS  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wno-comment -Wmisleading-indentation -ffunction-sections    -Werror -fdata-sections -o CMakeFiles/cmTC_f2655.dir/src.c.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f2655
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2655.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wno-comment -Wmisleading-indentation -ffunction-sections  CMakeFiles/cmTC_f2655.dir/src.c.o -o cmTC_f2655 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
+Change Dir: /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_81dde/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_81dde.dir/build.make CMakeFiles/cmTC_81dde.dir/build
+gmake[1]: Entering directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81dde.dir/src.cxx.o
+/usr/lib/llvm-18/bin/clang++ -DCXX_SUPPORTS_FDATA_SECTIONS  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wstring-conversion -Wmisleading-indentation -Wctad-maybe-unsupported -ffunction-sections    -Werror -fdata-sections -MD -MT CMakeFiles/cmTC_81dde.dir/src.cxx.o -MF CMakeFiles/cmTC_81dde.dir/src.cxx.o.d -o CMakeFiles/cmTC_81dde.dir/src.cxx.o -c /home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_81dde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81dde.dir/link.txt --verbose=1
+/usr/lib/llvm-18/bin/clang++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wstring-conversion -Wmisleading-indentation -Wctad-maybe-unsupported -ffunction-sections  CMakeFiles/cmTC_81dde.dir/src.cxx.o -o cmTC_81dde 
+gmake[1]: Leaving directory '/home/buuzytrash/kt/course4/compilers-fall-lec6/callprofiler/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

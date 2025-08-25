@@ -1,0 +1,12 @@
+version: '3'
+services:
+  whoami:
+    image: traefik/whoami
+    ports:
+      - "80"
+    labels:
+    - "traefik.enable=true"
+    - "traefik.http.routers.whoami.rule=Host(`192.168.1.231`)"
+    - "traefik.http.routers.whoami.entrypoints=web"
+    deploy:
+      replicas: 5

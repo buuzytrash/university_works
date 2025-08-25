@@ -1,0 +1,12 @@
+digraph "CFG for 'main' function" {
+	label="CFG for 'main' function";
+
+	Node0x58f4921d1fe0 [shape=record,color="#b70d28ff", style=filled, fillcolor="#b70d2870" fontname="Courier",label="{2:\l|  %3 = alloca i32, align 4\l  %4 = alloca i32, align 4\l  %5 = alloca ptr, align 8\l  store i32 0, ptr %3, align 4\l  store i32 %0, ptr %4, align 4\l  store ptr %1, ptr %5, align 8\l  %6 = call noundef nonnull align 8 dereferenceable(8) ptr\l... @_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(ptr noundef nonnull\l... align 8 dereferenceable(8) @_ZSt4cout, ptr noundef @.str)\l  %7 = load i32, ptr %4, align 4\l  %8 = icmp sgt i32 %7, 2\l  br i1 %8, label %9, label %11\l|{<s0>T|<s1>F}}"];
+	Node0x58f4921d1fe0:s0 -> Node0x58f4921d29c0[tooltip="2 -> 9\nProbability 50.00%" ];
+	Node0x58f4921d1fe0:s1 -> Node0x58f4921d2a10[tooltip="2 -> 11\nProbability 50.00%" ];
+	Node0x58f4921d29c0 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#be242e70" fontname="Courier",label="{9:\l|  %10 = call noundef nonnull align 8 dereferenceable(8) ptr\l... @_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(ptr noundef nonnull\l... align 8 dereferenceable(8) @_ZSt4cout, ptr noundef @.str.1)\l  br label %13\l}"];
+	Node0x58f4921d29c0 -> Node0x58f4921d2c60[tooltip="9 -> 13\nProbability 100.00%" ];
+	Node0x58f4921d2a10 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#be242e70" fontname="Courier",label="{11:\l|  %12 = call noundef nonnull align 8 dereferenceable(8) ptr\l... @_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(ptr noundef nonnull\l... align 8 dereferenceable(8) @_ZSt4cout, ptr noundef @.str.2)\l  br label %13\l}"];
+	Node0x58f4921d2a10 -> Node0x58f4921d2c60[tooltip="11 -> 13\nProbability 100.00%" ];
+	Node0x58f4921d2c60 [shape=record,color="#b70d28ff", style=filled, fillcolor="#b70d2870" fontname="Courier",label="{13:\l|  %14 = call noundef nonnull align 8 dereferenceable(8) ptr\l... @_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(ptr noundef nonnull\l... align 8 dereferenceable(8) @_ZSt4cout, ptr noundef @.str.3)\l  ret i32 0\l}"];
+}

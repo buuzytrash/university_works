@@ -1,0 +1,6 @@
+/home/buuzytrash/kt/course4/compilers-fall-lec8/Chapter09/lljit/build/CMakeFiles/intrinsics_gen.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec8/Chapter09/lljit/build/CMakeFiles/omp_gen.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec8/Chapter09/lljit/build/CMakeFiles/acc_gen.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec8/Chapter09/lljit/build/CMakeFiles/calc.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec8/Chapter09/lljit/build/CMakeFiles/edit_cache.dir
+/home/buuzytrash/kt/course4/compilers-fall-lec8/Chapter09/lljit/build/CMakeFiles/rebuild_cache.dir
